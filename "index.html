@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QMS Kids - مصنع وملابس الأطفال</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gold: '#D4AF37',
+                            dark: '#111827',
+                            light: '#F9FAFB',
+                            accent: '#3B82F6'
+                        }
+                    },
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 bg-brand-dark rounded-xl flex items-center justify-center text-brand-gold font-bold text-xl shadow-md">
+                        QMS
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900 tracking-tight">QMS KIDS</h1>
+                        <p class="text-xs text-gray-500 font-medium">صناعة وتصدير ألبسة الأطفال</p>
+                    </div>
+                </div>
+
+                <nav class="hidden md:flex items-center gap-8 font-semibold text-gray-700">
+                    <a href="#hero" class="hover:text-brand-gold transition-colors">الرئيسية</a>
+                    <a href="#about" class="hover:text-brand-gold transition-colors">عن المصنع</a>
+                    <a href="#products" class="hover:text-brand-gold transition-colors">المنتجات</a>
+                    <a href="#contact" class="hover:text-brand-gold transition-colors">تواصل معنا</a>
+                </nav>
+
+                <div class="flex items-center gap-4">
+                    <a href="https://wa.me/962790000000" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 shadow-lg shadow-emerald-600/20 transition-all">
+                        <i class="fab fa-whatsapp text-lg"></i>
+                        <span>طلب جملة</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative bg-brand-dark text-white py-24 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6 text-center lg:text-right">
+                    <span class="inline-block px-4 py-1.5 bg-brand-gold/20 text-brand-gold rounded-full text-sm font-bold border border-brand-gold/30">
+                        جودة عالية بأيدي ماهرة
+                    </span>
+                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+                        تصنيع وتوريد أحدث فساتين وملابس الأطفال
+                    </h2>
+                    <p class="text-gray-300 text-lg leading-relaxed max-w-2xl">
+                        مصنع QMS Kids متخصص في إنتاج أرقى تصاميم ملابس الأطفال بالجملة. أقمشة فاخرة، خياطة متقنة، وإمكانية التصنيع الخاص لحساب العلامات التجارية.
+                    </p>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#products" class="bg-brand-gold hover:bg-yellow-500 text-brand-dark font-bold px-8 py-4 rounded-xl shadow-lg transition-all text-lg">
+                            استعراض الكتالوج
+                        </a>
+                        <a href="#contact" class="border border-gray-600 hover:border-white px-8 py-4 rounded-xl font-bold transition-all text-lg">
+                            طلب تصنيع خاص
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="w-full h-[450px] bg-gray-800 rounded-3xl overflow-hidden shadow-2xl border border-gray-700 flex items-center justify-center text-gray-500">
+                        <div class="text-center p-6">
+                            <i class="fas fa-industry text-6xl text-brand-gold mb-4"></i>
+                            <p class="text-xl font-bold text-gray-300">QMS Kids Manufacturing</p>
+                            <p class="text-sm text-gray-400">عمان - الأردن</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Features -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-3xl font-bold text-gray-900">لماذا تختار QMS Kids؟</h2>
+                <p class="text-gray-600">نقدم حلول متكاملة للتجار وأصحاب العلامات التجارية لملابس الأطفال.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 space-y-4 text-center">
+                    <div class="w-16 h-16 bg-brand-gold/10 text-brand-gold rounded-2xl flex items-center justify-center text-2xl mx-auto">
+                        <i class="fas fa-[#D4AF37] fa-gem"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">أقمشة ممتازة</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">نستخدم أفضل أنواع القطن والمخمل الآمنة على بشرة الأطفال لضمان الراحة والأناقة.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 space-y-4 text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl mx-auto">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">تصنيع وتطريز خاص</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">ننفذ موديلتك الخاصة وتطريزات حسب الطلب بكميات جملة وبأعلى دقة تنفيذ.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-gray-50 border border-gray-100 space-y-4 text-center">
+                    <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl mx-auto">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900">شحن وتصدير</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">تجهيز سريع للطلبات وشحن موثوق لكافة مناطق الأردن والدول المجاورة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-2">أحدث الموديلات والتشكيلات</h2>
+                    <p class="text-gray-600">تصفح نماذج من إنتاجنا الخاص بالجملة</p>
+                </div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center text-gray-400">
+                        <i class="fas fa-child-dress text-5xl text-brand-gold"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-bold text-brand-gold bg-brand-gold/10 px-3 py-1 rounded-full">فساتين مناسبات</span>
+                        <h3 class="text-lg font-bold text-gray-900">فستان بناتي مطرز فاخر</h3>
+                        <p class="text-sm text-gray-500">خامة مخمل وقطن عالي الجودة مع تطريز يدوي للمناسبات.</p>
+                        <div class="pt-4 flex items-center justify-between border-t border-gray-50">
+                            <span class="text-sm font-semibold text-gray-700">القياسات: 2 - 10 سنوات</span>
+                            <a href="https://wa.me/962790000000?text=استفسار%20عن%20فستان%20بناتي%20مطرز" target="_blank" class="text-emerald-600 font-bold text-sm hover:underline flex items-center gap-1">
+                                <span>استفسر الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center text-gray-400">
+                        <i class="fas fa-tshirt text-5xl text-blue-500"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">طقم يومي</span>
+ ط                       <h3 class="text-lg font-bold text-gray-900">طقم ولادي قطن 100%</h3>
+                        <p class="text-sm text-gray-500">طقم مريح وعملي مصنوع من أجود أقمشة القطن الطبيعي.</p>
+                        <div class="pt-4 flex items-center justify-between border-t border-gray-50">
+                            <span class="text-sm font-semibold text-gray-700">القياسات: 1 - 6 سنوات</span>
+                            <a href="https://wa.me/962790000000?text=استفسار%20عن%20طقم%20ولادي%20قطن" target="_blank" class="text-emerald-600 font-bold text-sm hover:underline flex items-center gap-1">
+                                <span>استفسر الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <div class="h-64 bg-gray-200 flex items-center justify-center text-gray-400">
+                        <i class="fas fa-vest text-5xl text-purple-500"></i>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <span class="text-xs font-bold text-purple-600 bg-purple-50 px-3 py-1 rounded-full">تشكيلة الشتاء</span>
+                        <h3 class="text-lg font-bold text-gray-900">جاكيت أطفال مبطن</h3>
+                        <p class="text-sm text-gray-500">حماية وثقل دافئ مع تصميم عصري وشبكي جذاب.</p>
+                        <div class="pt-4 flex items-center justify-between border-t border-gray-50">
+                            <span class="text-sm font-semibold text-gray-700">القياسات: 4 - 12 سنة</span>
+                            <a href="https://wa.me/962790000000?text=استفسار%20عن%20جاكيت%20أطفال%20مبطن" target="_blank" class="text-emerald-600 font-bold text-sm hover:underline flex items-center gap-1">
+                                <span>استفسر الآن</span>
+                                <i class="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-dark rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
+                <div class="max-w-2xl space-y-6">
+                    <h2 class="text-3xl font-bold">تواصل مع إدارة المصنع مباشرة</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        نحن هنا للرد على استفسارات الطلبات الكبيرة، تجهيز العينات، وتفاصيل التصدير.
+                    </p>
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center text-brand-gold">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <span>عمان، الأردن</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-gray-800 flex items-center justify-center text-brand-gold">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <span dir="ltr">+962 7 0000 0000</span>
+                        </div>
+                    </div>
+                    <div class="pt-4">
+                        <a href="https://wa.me/962790000000" target="_blank" class="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                            <span>تحدث معنا عبر الواتساب</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 border-t border-gray-800 text-center text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>جميع الحقوق محفوظة &copy; 2026 QMS Kids Manufacturing</p>
+        </div>
+    </footer>
+
+</body>
+</html>
